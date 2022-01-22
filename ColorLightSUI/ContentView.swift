@@ -17,6 +17,7 @@ struct ContentView: View {
     
     @State var colorLig: ColorLig = .red
     @State var nameButton = "Start"
+    @State var nextNameButton = "Next"
     
     @State var redOpacity = 0.3
     @State var yellowOpacity = 0.3
@@ -40,6 +41,7 @@ struct ContentView: View {
                 Spacer() //- разьезжают элементы
                 
                 Button(nameButton) {
+                    nameButton = nextNameButton
                     switch colorLig {
                     case .red:
                         redOpacity = 1.0
