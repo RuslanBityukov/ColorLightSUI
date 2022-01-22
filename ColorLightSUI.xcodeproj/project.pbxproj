@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1A9A88279AE25F0073CB05 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A9A87279AE25F0073CB05 /* CircleView.swift */; };
 		AB4B82092799D842008D22A6 /* ColorLightSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4B82082799D842008D22A6 /* ColorLightSUIApp.swift */; };
 		AB4B820B2799D842008D22A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4B820A2799D842008D22A6 /* ContentView.swift */; };
 		AB4B820D2799D844008D22A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4B820C2799D844008D22A6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB1A9A87279AE25F0073CB05 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		AB4B82052799D842008D22A6 /* ColorLightSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorLightSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4B82082799D842008D22A6 /* ColorLightSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLightSUIApp.swift; sourceTree = "<group>"; };
 		AB4B820A2799D842008D22A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				AB4B82082799D842008D22A6 /* ColorLightSUIApp.swift */,
 				AB4B820A2799D842008D22A6 /* ContentView.swift */,
+				AB1A9A87279AE25F0073CB05 /* CircleView.swift */,
 				AB4B820C2799D844008D22A6 /* Assets.xcassets */,
 				AB4B820E2799D844008D22A6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1A9A88279AE25F0073CB05 /* CircleView.swift in Sources */,
 				AB4B820B2799D842008D22A6 /* ContentView.swift in Sources */,
 				AB4B82092799D842008D22A6 /* ColorLightSUIApp.swift in Sources */,
 			);
